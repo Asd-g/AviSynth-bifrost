@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bifrost", "Bifrost.vcxproj", "{966F5420-562D-44E7-888A-43236E974F48}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{966F5420-562D-44E7-888A-43236E974F48}.Debug|x64.ActiveCfg = Debug|x64
+		{966F5420-562D-44E7-888A-43236E974F48}.Debug|x64.Build.0 = Debug|x64
+		{966F5420-562D-44E7-888A-43236E974F48}.Debug|x86.ActiveCfg = Debug|Win32
+		{966F5420-562D-44E7-888A-43236E974F48}.Debug|x86.Build.0 = Debug|Win32
+		{966F5420-562D-44E7-888A-43236E974F48}.Release|x64.ActiveCfg = Release|x64
+		{966F5420-562D-44E7-888A-43236E974F48}.Release|x64.Build.0 = Release|x64
+		{966F5420-562D-44E7-888A-43236E974F48}.Release|x86.ActiveCfg = Release|Win32
+		{966F5420-562D-44E7-888A-43236E974F48}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C63AD75-A31B-4959-AE22-BDFFAA52C1DF}
+	EndGlobalSection
+EndGlobal
