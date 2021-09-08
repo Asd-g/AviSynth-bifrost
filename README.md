@@ -1,16 +1,22 @@
-# Description
+## Description
 
 Bifrost is a temporal derainbowing filter created by Fredrik Mellbin.
 
 The original Avisynth plugin (version 1.1) worked on the whole frame or not at all. This version works on blocks, meaning that static parts of the image can be processed even if something moves on screen.
 
-# Usage
+### Requirements:
+
+- AviSynth 2.60 / AviSynth+ 3.4 or later
+
+- Microsoft VisualC++ Redistributable Package 2022 (can be downloaded from [here](https://github.com/abbodi1406/vcredist/releases))
+
+### Usage:
 
 ```
 Bifrost (clip input, clip "altclip", float "luma_thresh", int "variation", bool "conservative_mask", bool "interlaced", int "blockx", int "blocky")
 ```
 
-## Parameters:
+### Parameters:
 
 - input\
     A clip to process. It must be in YUV 8..16-bit planar format and must have at least three planes.
@@ -45,26 +51,24 @@ Bifrost (clip input, clip "altclip", float "luma_thresh", int "variation", bool 
     Smaller is probably better.\
     Default: 4.
 
-# Building
+### Building:
 
-## Windows
+- Windows\
+    Use solution files.
 
-Use solution files.
-
-## Linux
-
-### Requirements
-
-- Git
-- C++11 compiler
-- CMake >= 3.16
-
-```
-git clone https://github.com/Asd-g/AviSynth-bifrost && \
-cd AviSynth-bifrost && \
-mkdir build && \
-cd build && \
-cmake .. && \
-make -j$(nproc) && \
-sudo make install
-```
+- Linux
+    ```
+    Requirements:
+        - Git
+        - C++11 compiler
+        - CMake >= 3.16
+    ```
+    ```
+    git clone https://github.com/Asd-g/AviSynth-bifrost && \
+    cd AviSynth-bifrost && \
+    mkdir build && \
+    cd build && \
+    cmake .. && \
+    make -j$(nproc) && \
+    sudo make install
+    ```
